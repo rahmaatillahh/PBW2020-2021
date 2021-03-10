@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript Part 11 : Perulangan For Pada Javascript</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" media="print" onload="this.media='all'">
+</head>
+<body data-rsssl=1>
+	<h1>Perulangan For Pada Javascript</h1>
+	<h2>www.malasngoding.com</h2>
+
+
+	<button onclick="perulangan()">TOMBOL</button>	
+
+	<!-- id hasil -->
+	<div id="hasil"></div>
+
+	<script>
+		function perulangan() {
+		    var text = "";
+		    var x;
+		    for (x = 0; x <= 10; x++) {
+		        text += "Angka " + x + "<br>";
+		    }
+		    document.getElementById("hasil").innerHTML = text;
+		}
+	</script>	
+</body>
+</html>
